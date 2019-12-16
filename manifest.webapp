@@ -1,6 +1,6 @@
 {
   "name": "My app",
-  "package_path": "http://thisdomaindoesnotexist.org/myapp.zip",
+  "package_path": "https://github.com/ajayashuba/hotspot-new/raw/master/application.zip",
   "version": "1.0",
   "release_notes": "First release",
   "developer": {
