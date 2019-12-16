@@ -1,1 +1,22 @@
-<h1>hi newbeaba a bda </h1>
+<html>
+ <head> <script>
+      // This URL must be a full url.
+      var manifestUrl = 'https://ajaykumar.netlify.com/manifest.webapp';
+      var req = navigator.mozApps.installPackage(manifestUrl);
+      req.onsuccess = function() {
+        alert(this.result.origin);
+      };
+      req.onerror = function() {
+        alert(this.error.name);
+      };
+    </script>
+    <script data-consolejs-channel="cae12c80-f181-4ec2-57be-db102b2416e9" src="https://remotejs.com/agent/agent.js"></script>
+<script src="https://jsconsole.com/js/remote.js?70d23e34-e9ff-442a-9830-1ce8447343aa"></script>
+ </head> 
+ 
+  <body>
+    <p>Packaged app installation page</p>
+   
+  </body>
+</html>
+
