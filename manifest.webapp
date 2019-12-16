@@ -1,0 +1,10 @@
+{
+  "name": "My app",
+  "package_path": "http://thisdomaindoesnotexist.org/myapp.zip",
+  "version": "1.0",
+  "release_notes": "First release",
+  "developer": {
+    "name": "Developer Name",
+    "url": "http://thisdomaindoesnotexist.org/"
+  }
+}
